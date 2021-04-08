@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1617895302522,
+  "timestamp": 1617895905990,
   "index": "/LOSAPP/index.html",
   "assetGroups": [
     {
@@ -145,7 +145,7 @@
     "/LOSAPP/assets/img/user6-128x128.jpg": "e3512e667689d817d9627d9033fb639aab11992d",
     "/LOSAPP/assets/img/user7-128x128.jpg": "eb1e262c4c21a92cce8eba91958d6b714b9c04d9",
     "/LOSAPP/assets/img/user8-128x128.jpg": "beda33082a617b13d51b53e1f32eab8468f0e329",
-    "/LOSAPP/assets/offline.html": "fdbbc01bf4a409f14073ae8397cb6b390ec7317f",
+    "/LOSAPP/assets/offline.html": "c98240f79b85e36f52287c26ff30cb05daeda6ca",
     "/LOSAPP/fa-brands-400.216edb96b562c79adc09.svg": "24aff44d36f6c4a6a08230474b546b29641c75d6",
     "/LOSAPP/fa-brands-400.329a95a9172fdb2cccb4.woff": "5f8cab91347c553c1eb87f9b527f6bee8a28e40d",
     "/LOSAPP/fa-brands-400.89a52ae1d02b86d61439.eot": "a400bc89d3cb4d45a3b90791800587a1e4ebafa6",
