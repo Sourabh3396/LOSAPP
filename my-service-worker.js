@@ -8,8 +8,8 @@ self.addEventListener('fetch', function (event) {
 
         // only intercept if there was a problem fetching index.html
         event.respondWith(
-            fetch(request).catch(function (error) {
-                console.error("[onfetch] Failed. Serving cached offline fallback");
+            fetch(request).catch(function () {
+                // console.error("[onfetch] Failed. Serving cached offline fallback");
 
                 // return offline page from cache instead
                 return caches.match("/LOSAPP/assets/offline.html");
