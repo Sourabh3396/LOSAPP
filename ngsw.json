@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1617907832874,
+  "timestamp": 1617908051497,
   "index": "/LOSAPP/index.html",
   "assetGroups": [
     {
@@ -55,7 +55,7 @@
         "/LOSAPP/assets/img/user6-128x128.jpg",
         "/LOSAPP/assets/img/user7-128x128.jpg",
         "/LOSAPP/assets/img/user8-128x128.jpg",
-        "/LOSAPP/assets/offline.html",
+        "/LOSAPP/assets/offline1.html",
         "/LOSAPP/favicon.ico",
         "/LOSAPP/main.901ce03d01a6971cc6be.js",
         "/LOSAPP/manifest.webmanifest",
@@ -144,7 +144,7 @@
     "/LOSAPP/assets/img/user6-128x128.jpg": "e3512e667689d817d9627d9033fb639aab11992d",
     "/LOSAPP/assets/img/user7-128x128.jpg": "eb1e262c4c21a92cce8eba91958d6b714b9c04d9",
     "/LOSAPP/assets/img/user8-128x128.jpg": "beda33082a617b13d51b53e1f32eab8468f0e329",
-    "/LOSAPP/assets/offline.html": "3831e9630f2ae89e4bdf115010907c514b6f980c",
+    "/LOSAPP/assets/offline1.html": "3831e9630f2ae89e4bdf115010907c514b6f980c",
     "/LOSAPP/fa-brands-400.216edb96b562c79adc09.svg": "24aff44d36f6c4a6a08230474b546b29641c75d6",
     "/LOSAPP/fa-brands-400.329a95a9172fdb2cccb4.woff": "5f8cab91347c553c1eb87f9b527f6bee8a28e40d",
     "/LOSAPP/fa-brands-400.89a52ae1d02b86d61439.eot": "a400bc89d3cb4d45a3b90791800587a1e4ebafa6",
@@ -163,7 +163,7 @@
     "/LOSAPP/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/LOSAPP/main.901ce03d01a6971cc6be.js": "6fa2ccd3de04516fd24930a0a38e9a190ade2a5f",
     "/LOSAPP/manifest.webmanifest": "8973cc14707f68081641abf63a167645b7c1d89e",
-    "/LOSAPP/my-service-worker.js": "4324eb1d9789e5a0b19058c4b40939720bc303ed",
+    "/LOSAPP/my-service-worker.js": "acf8c953984ce1632aa1e258534634bcd3a4a554",
     "/LOSAPP/polyfills.94daefd414b8355106ab.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/LOSAPP/runtime.4e46179d9977898ab9fa.js": "cd1718d0f5dc2153717e6a948aded2a15ddea413",
     "/LOSAPP/scripts.95f0518e13930773d5a6.js": "e3182319d0fd536824e35e9ef7ab6669cb2a7536",
