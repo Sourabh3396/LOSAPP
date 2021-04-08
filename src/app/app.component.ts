@@ -11,10 +11,10 @@ export class AppComponent {
    constructor(private swUpdate: SwUpdate) {}
 
   ngOnInit() {
-    if (this.swUpdate.isEnabled) {
-      this.swUpdate.available.subscribe(() => {
-        window.location.reload();
-      });
-    }
+    // if (this.swUpdate.isEnabled) {
+    //   this.swUpdate.available.subscribe(() => {
+    //     window.location.reload();
+    //   });
+    // }
   }
 }
