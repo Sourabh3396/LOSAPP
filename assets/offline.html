@@ -1,1 +1,414 @@
-<h1>You are now offline!!</h1>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Offline LoansBridge</title>
+  <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url(); ?>assets/local/images/logo.png?format=100w"/>
+
+  
+  <link rel="manifest" href="/manifest.webmanifest">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="/assets/offline/css/all.min.css">
+  <!-- Tempusdominus Bbootstrap 4 -->
+  <link rel="stylesheet" href="/assets/offline/css/tempusdominus-bootstrap-4.min.css">
+  <link rel="stylesheet" href="/assets/offline/css/icheck-bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/offline/css/adminlte.min.css">
+  <link rel="stylesheet" href="/assets/offline/css/select2.min.css">
+  <link rel="stylesheet" href="/assets/offline/css/select2-bootstrap4.min.css">
+  <link rel="stylesheet" href="/assets/offline/css/losportal.css">
+  <link rel="stylesheet" href="/assets/offline/css/style.css">
+
+  <!-- Include Dexie -->
+  <script src="<?php echo base_url(); ?>assets/offline/js/dexie.min.js"></script>
+
+
+</head>
+
+<body>
+  <header>
+    <h3>Offline ArthSetu</h3>
+  </header>
+  <!-- <nav>
+    <ul>
+      <li class="current">
+        <a href="/assets/offline/offline.html">Offline</a>
+      </li>
+      <li>
+        <a href="/assets/offline/about.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis repellendus eligendi blanditiis quis labore veritatis,
+      autem exercitationem hic itaque fugiat quae aut temporibus quod iste quibusdam, nisi distinctio quisquam? Repudiandae
+      aut deserunt cumque vitae unde rerum quis omnis quidem pariatur.</p>
+  </main> -->
+
+  <section class="content">
+    <form id="newlappid" name="newlapp" action="">
+      <!-- <div class="card" style="background-color:#d9d9d9"> -->
+      <div class="card">
+        <div class="card-body">
+            <div class="card" style="background-color:#f4f4f4">
+                <div class="card-body">
+                  <div class="form-group">
+                    <h5>Personal Details</h5>
+                    <div class="form-row">
+                      <div class="col-sm-4">
+                        <div class="form-group form-group-sm">
+                          <label>First Name</label>
+                          <input class="form-control" id="fnameInput" name="fnameInput" type="text" placeholder="First name"  value="">
+                        </div>
+                      </div> 
+                      <div class="col-sm-4">
+                        <div class="form-group form-group-sm">
+                          <label>Middle Name</label>
+                          <input class="form-control" id="mnameInput" name="mnameInput" type="text"  placeholder="Middle name"  value="">
+                        </div>
+                      </div> 
+                      <div class="col-sm-4">
+                        <div class="form-group form-group-sm">
+                          <label>Last Name</label>
+                          <input class="form-control" id="lnameInput" name="lnameInput" type="text"  placeholder="Last name"  value="">
+                        </div>
+                      </div> 
+                    </div>
+                    <div class="form-row">
+                      <div class="col-sm-4">
+                        <div class="form-group form-group-sm">
+                          <label for="bdteInput">Birth Date</label>
+                          <input type="text" id="bdteInput" name="bdteInput" class="form-control dtpick" data-date-format="dd/mm/yyyy" placeholder="DD/MM/YYYY" value="">
+                        </div> 
+                      </div> 
+                      <div class="col-sm-4">
+                        <div class="form-group form-group-sm">
+                          <label>Gender</label>
+                          <select id="genderInput" name="genderInput" class="form-control" data-placeholder="--CHOOSE--">
+                              <option value="">--CHOOSE--</option>
+                              <option value="Male">Male</option>
+                              <option value="Female">Female</option>                           
+                          </select>
+                        </div> 
+                      </div> 
+                      <div class="col-sm-4">
+                        <div class="form-group form-group-sm">
+                          <label>Marital Status</label>
+                          <select id="maritalInput" name="maritalInput" class="form-control" data-placeholder="--CHOOSE--">
+                              <option value="">--CHOOSE--</option>
+                              <option value="Single">Single</option>
+                              <option value="Married">Married</option>
+                          </select>
+                        </div> 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                      <h5>Relationship Information</h5>
+                      <div class="form-row">
+                        <div class="col-sm-6">    
+                              <div class="form-group form-group-sm">
+                                <label>Fathers Name</label>
+                                <input class="form-control" id="fathersnameInput">
+                              </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group form-group-sm">
+                            <label>Spouse Name</label>
+                            <input class="form-control" id="spousenameInput">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                    <h5>Contact Information</h5>
+                    <div class="form-row">
+                      <div class="col-sm-6">    
+                        <div class="form-group form-group-sm">
+                            <label>Mobile Number</label>
+                            <input class="form-control" id="mnoInput">
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-group form-group-sm">
+                          <label>Email</label>
+                          <input class="form-control" id="emailInput">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <h5>KYC Details</h5>                  
+                    <div class="form-row">
+                        <div class="col-sm-6">
+                          <div class="form-group form-group-sm">
+                            <label>UID</label>
+                            <input class="form-control" id="aadharnoInput">
+                          </div>
+                          <div class="form-group form-group-sm">
+                            <label>Driving Licence</label>
+                            <input class="form-control" id="dlInput">
+                          </div>
+                          <div class="form-group form-group-sm">
+                            <label>Voter ID</label>
+                            <input class="form-control" id="vidInput">
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group form-group-sm">
+                            <label>PAN</label>
+                            <input class="form-control" id="panInput">
+                          </div>
+                          <div class="form-group form-group-sm">
+                            <label>Passport</label>
+                            <input class="form-control" id="ppInput">
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <h5>Contact Details</h5>
+                    <div class="form-row">
+                        <div class="col-sm-6">
+                          <div class="form-group form-group-sm">
+                            <label>Address Line 1</label>
+                            <input class="form-control" id="addr1Input">
+                          </div>
+                          <div class="form-group form-group-sm">
+                            <label>Address Line 2</label>
+                            <input class="form-control" id="addr2Input">
+                          </div>
+                          <div class="form-group form-group-sm">
+                            <label>Neighbourhood</label>
+                            <input class="form-control" id="neighbourhoodInput">
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group form-group-sm">
+                            <label>Village/Locality</label>
+                            <input class="form-control" id="villagelocalityInput">
+                          </div>
+                          <div class="form-group form-group-sm">
+                            <label>City Tehsil</label>
+                            <input class="form-control" id="citytehsilInput">
+                          </div>
+                          <div class="form-group form-group-sm">
+                            <label>Pincode</label>
+                            <input class="form-control" id="pincodeInput">
+                          </div>
+                          <div class="form-group form-group-sm">
+                            <label>State</label>
+                            <select id="stateInput" name="stateInput" class="form-control" data-placeholder="--CHOOSE--">
+                              <option value="">--CHOOSE--</option>
+                              <option value="Delhi">Delhi</option>
+                              <option value="Maharashtra">Maharashtra</option>
+                              <option value="Gujrat">Gujrat</option>
+                              <option value="Kerala">Kerala</option>                            
+                              <option value="Kerala">West Bengal</option>                            
+                            </select>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- <div class="form-row">
+                    <label>Primary</label>
+                    <input class="form-control" id="primaryInput">
+                  </div> -->
+                      <!-- <div class="form-row">
+                        <button id="addButton">Add</button>
+                      </div> -->
+                  <!-- </div> -->
+                      <!-- form group -->
+                </div>
+                <!-- inner card body -->
+            </div>
+            <!-- inner card -->
+        </div>
+        <!-- card body  -->
+        <div class="card-footer">
+            <button type="submit" name="action" value="edit" class="btn btn-success pull-right">Save</button>
+        </div>
+      </div>
+      <!-- card  -->
+    </form>
+
+  </section> 
+
+    DB<input type = 'text' value = 'notes' id = 'txtDB'> <br>
+    Version <input type = 'text' value = '1' id = 'txtVersion'> <br>
+    <button id = 'btnCreateDB'>Create DB</button>
+
+    <button id = 'btnAddNote'>Add Note</button>
+    <button id = 'btnViewNotes'>View Notes</button>
+
+
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="/assets/offline/css/daterangepicker.css" />
+
+
+    <script src="/assets/offline/js/jquery.min.js"></script>
+    <script src="/assets/offline/js/moment.min.js"></script>
+    <script src="/assets/offline/js/daterangepicker.js"></script>
+    <script src="/assets/offline/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/offline/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="/assets/offline/js/select2.full.min.js"></script>
+    <script src="/assets/offline/js/adminlte.js"></script>
+
+
+
+     <!-- // TODO: 
+     // Add applicant 
+     // Store in indexedDB
+     // View application details.
+     //  -->
+    <script>
+
+        let db = null
+        const btnCreateDB = document.getElementById("btnCreateDB")
+        const btnAddNote = document.getElementById("btnAddNote")
+        const btnViewNotes = document.getElementById("btnViewNotes")
+
+        btnCreateDB.addEventListener("click", createDB)
+        btnAddNote.addEventListener("click", addNote) 
+        btnViewNotes.addEventListener("click", viewNotes)
+
+        function createDB () {
+
+            // const dbName = document.getElementById("txtDB").value
+            // const dbVersion = document.getElementById("txtVersion").value
+
+            const dbName = "loansbridgedb"
+            const dbVersion = "2"
+            
+            const request = indexedDB.open(dbName,dbVersion)
+
+                //on upgrade needed
+                request.onupgradeneeded = e => {
+                    db = e.target.result
+                   /* note = {
+                        title: "note1",
+                        text: "this is a note"
+                    }*/
+                    const pNotes = db.createObjectStore("personal_notes", {keyPath: "title"})
+                    const lappln = db.createObjectStore("loanapplications", {keyPath: "title"})
+
+                    // loanapplications
+                    //    id 
+                    //    prodname
+                    //    subprodname
+                    //    ladatetime
+
+                    // lusers
+                    //    firstname
+                    //    middlename
+                    //    lastname
+                    //    birthdate 
+                    //    fathersname
+                    //    spousesname 
+                    //    aadharno
+                    //    mobilenumber
+                    //    voterid
+                    //    drivinglicenceno
+                    //    pannumber
+                    //    primaryYN
+
+                    // luseraddresses
+
+
+
+
+
+
+                    const todoNotes = db.createObjectStore("todo_notes", {keyPath: "title"})
+                   
+                   alert(`upgrade is called database name: ${db.name} version : ${db.version}`)
+
+                }
+                //on success 
+                request.onsuccess = e => {
+                    db = e.target.result
+                    alert(`success is called database name: ${db.name} version : ${db.version}`)
+                }
+                //on error
+                request.onerror = e => {
+                    alert(`error: ${e.target.error} was found `)
+                     
+                }
+
+
+        }
+
+        function viewNotes() {
+
+            const tx = db.transaction("personal_notes","readonly")
+            const pNotes = tx.objectStore("personal_notes")
+            const request = pNotes.openCursor()
+            request.onsuccess = e => {
+
+                const cursor = e.target.result
+
+                if (cursor) {
+                    alert(`Title: ${cursor.key} Text: ${cursor.value.text} `)
+                    //do something with the cursor
+                    cursor.continue()
+                }
+            }
+
+        }
+
+        function addNote() {
+
+            const note = {
+                title: "note" + Math.random(),
+                text: "This is my note"
+            }
+
+            const tx = db.transaction("personal_notes", "readwrite")
+            tx.onerror = e => alert( ` Error! ${e.target.error}  `)
+            const pNotes = tx.objectStore("personal_notes")
+            pNotes.add(note)
+        }
+
+
+       
+    </script>
+
+     <script>
+
+        $(function() {
+              $('.dtpick').daterangepicker({
+              "singleDatePicker": true,
+              "autoUpdateInput": false,
+              "showDropdowns" : true,
+              "minYear": 1930,
+              "maxYear": 2030,
+              autoclose: true,
+              locale: {
+                  cancelLabel: 'Clear'
+              }
+        });
+
+        $('input[name="bdteInput"]').on('apply.daterangepicker', function(ev, picker) {
+                      $(this).val(chosen_date.format('DD/MM/YYYY'));
+        });
+
+        $('input[name="bdteInput"]').on('cancel.daterangepicker', function(ev, picker) {
+              $(this).val('');
+        });
+
+      });
+
+      </script>
+
+
+ 
+  
+</body>
+
+</html>
