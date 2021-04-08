@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1617869181403,
+  "timestamp": 1617875185328,
   "index": "/LOSAPP/index.html",
   "assetGroups": [
     {
@@ -165,7 +165,7 @@
     "/LOSAPP/index.html": "ec8a3631d0abd4919e7c4365db804ee5de21a2ad",
     "/LOSAPP/main.901ce03d01a6971cc6be.js": "6fa2ccd3de04516fd24930a0a38e9a190ade2a5f",
     "/LOSAPP/manifest.webmanifest": "8973cc14707f68081641abf63a167645b7c1d89e",
-    "/LOSAPP/my-service-worker.js": "2154a5d8535a1a41e4f19f606e5a742df40a64ad",
+    "/LOSAPP/my-service-worker.js": "ba39c532fede9938d3aad39c5ccc8b277b21c2bd",
     "/LOSAPP/polyfills.94daefd414b8355106ab.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/LOSAPP/runtime.4e46179d9977898ab9fa.js": "cd1718d0f5dc2153717e6a948aded2a15ddea413",
     "/LOSAPP/scripts.95f0518e13930773d5a6.js": "e3182319d0fd536824e35e9ef7ab6669cb2a7536",
