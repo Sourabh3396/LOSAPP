@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1617908534731,
+  "timestamp": 1617910872325,
   "index": "/LOSAPP/index.html",
   "assetGroups": [
     {
@@ -14,7 +14,9 @@
         "/LOSAPP/4.d1a7444a0d2cd2bd9e1e.js",
         "/LOSAPP/5.e2411fb3d408ee93d1ad.js",
         "/LOSAPP/6.48e0d22d572ac88e5e9c.js",
+        "/LOSAPP/assets/offline1.html",
         "/LOSAPP/favicon.ico",
+        "/LOSAPP/index.html",
         "/LOSAPP/main.80a0a272243ccfee449f.js",
         "/LOSAPP/manifest.webmanifest",
         "/LOSAPP/my-service-worker.js",
@@ -74,7 +76,6 @@
         "/LOSAPP/assets/img/user6-128x128.jpg",
         "/LOSAPP/assets/img/user7-128x128.jpg",
         "/LOSAPP/assets/img/user8-128x128.jpg",
-        "/LOSAPP/assets/offline1.html",
         "/LOSAPP/fa-brands-400.216edb96b562c79adc09.svg",
         "/LOSAPP/fa-brands-400.329a95a9172fdb2cccb4.woff",
         "/LOSAPP/fa-brands-400.89a52ae1d02b86d61439.eot",
@@ -144,7 +145,7 @@
     "/LOSAPP/assets/img/user6-128x128.jpg": "e3512e667689d817d9627d9033fb639aab11992d",
     "/LOSAPP/assets/img/user7-128x128.jpg": "eb1e262c4c21a92cce8eba91958d6b714b9c04d9",
     "/LOSAPP/assets/img/user8-128x128.jpg": "beda33082a617b13d51b53e1f32eab8468f0e329",
-    "/LOSAPP/assets/offline1.html": "3831e9630f2ae89e4bdf115010907c514b6f980c",
+    "/LOSAPP/assets/offline1.html": "e4bc8198cf7499ac0aa0ec804f8d38b9d35ed5f6",
     "/LOSAPP/fa-brands-400.216edb96b562c79adc09.svg": "24aff44d36f6c4a6a08230474b546b29641c75d6",
     "/LOSAPP/fa-brands-400.329a95a9172fdb2cccb4.woff": "5f8cab91347c553c1eb87f9b527f6bee8a28e40d",
     "/LOSAPP/fa-brands-400.89a52ae1d02b86d61439.eot": "a400bc89d3cb4d45a3b90791800587a1e4ebafa6",
@@ -161,6 +162,7 @@
     "/LOSAPP/fa-solid-900.c6ec080084769a6d8a34.woff": "52751432ded489dfdf27fb1cf64c570c4c27a1d7",
     "/LOSAPP/fa-solid-900.efbd5d20e407bbf85f2b.eot": "b18bdd10beee0a20231aa4c9ea11e84a9307a4fd",
     "/LOSAPP/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/LOSAPP/index.html": "5d82980efe589601e453e25d9ae1fbbf330329c4",
     "/LOSAPP/main.80a0a272243ccfee449f.js": "db60c87b5bd44c0f27dd90d8569cbf53dcda7ce8",
     "/LOSAPP/manifest.webmanifest": "8973cc14707f68081641abf63a167645b7c1d89e",
     "/LOSAPP/my-service-worker.js": "acf8c953984ce1632aa1e258534634bcd3a4a554",
