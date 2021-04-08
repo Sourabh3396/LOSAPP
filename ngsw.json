@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1617907576385,
+  "timestamp": 1617907832874,
   "index": "/LOSAPP/index.html",
   "assetGroups": [
     {
@@ -14,27 +14,6 @@
         "/LOSAPP/4.d1a7444a0d2cd2bd9e1e.js",
         "/LOSAPP/5.e2411fb3d408ee93d1ad.js",
         "/LOSAPP/6.48e0d22d572ac88e5e9c.js",
-        "/LOSAPP/assets/offline.html",
-        "/LOSAPP/favicon.ico",
-        "/LOSAPP/index.html",
-        "/LOSAPP/main.901ce03d01a6971cc6be.js",
-        "/LOSAPP/manifest.webmanifest",
-        "/LOSAPP/my-service-worker.js",
-        "/LOSAPP/polyfills.94daefd414b8355106ab.js",
-        "/LOSAPP/runtime.4e46179d9977898ab9fa.js",
-        "/LOSAPP/scripts.95f0518e13930773d5a6.js",
-        "/LOSAPP/styles.269d320e5b3ec7b540a7.css"
-      ],
-      "patterns": []
-    },
-    {
-      "name": "assets",
-      "installMode": "lazy",
-      "updateMode": "prefetch",
-      "cacheQueryOptions": {
-        "ignoreVary": true
-      },
-      "urls": [
         "/LOSAPP/assets/icons/icon-128x128.png",
         "/LOSAPP/assets/icons/icon-144x144.png",
         "/LOSAPP/assets/icons/icon-152x152.png",
@@ -76,6 +55,26 @@
         "/LOSAPP/assets/img/user6-128x128.jpg",
         "/LOSAPP/assets/img/user7-128x128.jpg",
         "/LOSAPP/assets/img/user8-128x128.jpg",
+        "/LOSAPP/assets/offline.html",
+        "/LOSAPP/favicon.ico",
+        "/LOSAPP/main.901ce03d01a6971cc6be.js",
+        "/LOSAPP/manifest.webmanifest",
+        "/LOSAPP/my-service-worker.js",
+        "/LOSAPP/polyfills.94daefd414b8355106ab.js",
+        "/LOSAPP/runtime.4e46179d9977898ab9fa.js",
+        "/LOSAPP/scripts.95f0518e13930773d5a6.js",
+        "/LOSAPP/styles.269d320e5b3ec7b540a7.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
         "/LOSAPP/fa-brands-400.216edb96b562c79adc09.svg",
         "/LOSAPP/fa-brands-400.329a95a9172fdb2cccb4.woff",
         "/LOSAPP/fa-brands-400.89a52ae1d02b86d61439.eot",
@@ -162,7 +161,6 @@
     "/LOSAPP/fa-solid-900.c6ec080084769a6d8a34.woff": "52751432ded489dfdf27fb1cf64c570c4c27a1d7",
     "/LOSAPP/fa-solid-900.efbd5d20e407bbf85f2b.eot": "b18bdd10beee0a20231aa4c9ea11e84a9307a4fd",
     "/LOSAPP/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/LOSAPP/index.html": "ec8a3631d0abd4919e7c4365db804ee5de21a2ad",
     "/LOSAPP/main.901ce03d01a6971cc6be.js": "6fa2ccd3de04516fd24930a0a38e9a190ade2a5f",
     "/LOSAPP/manifest.webmanifest": "8973cc14707f68081641abf63a167645b7c1d89e",
     "/LOSAPP/my-service-worker.js": "4324eb1d9789e5a0b19058c4b40939720bc303ed",
